@@ -5,7 +5,7 @@ var db = require('./db');
 
 
 // Configure the local strategy for use by Passport.
-//
+
 // The local strategy require a `verify` function which receives the credentials
 // (`username` and `password`) submitted by the user.  The function must verify
 // that the password is correct and then invoke `cb` with a user object, which
